@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script defer>
+         document.addEventListener('DOMContentLoaded', () => {
+             const hamburger = document.getElementById('hamburger');
+             const navList = document.getElementById('navList');
+         
+             hamburger.addEventListener('click', () => {
+                 navList.classList.toggle('show');
+                 hamburger.classList.toggle('active');
+                 console.log('Hamburger clicked!'); 
+             });
+         });
+             
+      </script>
+   </head>
+   <body style="margin-right: 12px;">
+      <div class="newsletter">
+         <div class="iconDiv">
+            <div class="socialIconDiv"><i style="font-size: 15px; color: #ada8a8;" class="fab fa-facebook-f"></i>
+            </div>
+            <div class="socialIconDiv"><i style="font-size: 13px; color: #ada8a8;" class="fab fa-twitter"></i>
+            </div>
+            <div class="socialIconDiv"><i style="font-size: 13px; color: #ada8a8;" class="fab fa-google-plus-g"></i>
+            </div>
+            <div class="socialIconDiv"><i style="font-size: 13px; color: #ada8a8;" class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="socialIconDiv"><i style="font-size: 13px; color: #ada8a8;" class="fab fa-youtube"></i>
+            </div>
+         </div>
+         <div class="newsletterDiv">
+            <p style="color: white;"><i class="fas fa-phone" style="color: #509c4e;"></i>
+               +92(304) 386-6719
+            </p>
+            <p  style="color: white;"><i class="fas fa-phone"style="color: #509c4e;"></i>
+               +92(304) 386-6719
+            </p>
+            <butt class="butt">CALL ME BACK</butt>
+         </div>
+      </div>
+      <div class="navbarDiv">
+         <img src="./images/logo.PNG" alt="image" height="50px" />
+         <div class="navListItem" id="navList">
+            <a href="#advantage">Why Us</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#process">Process</a>
+            <a href="#rating">Reviews</a>
+            <a href="#skill">Our Skill</a>
+            <a href="#contact">Contact Us</a>
+         </div>
+         <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+      </div>
+      <div class="heroSection">
+         <h1 class="heading">We Are Experts</h1>
+         <p style="width: 50%; color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+         <butt class="button">Read More</butt>
+         <div class="dotDiv">
+            <i class="fas fa-ellipsis-h" style="font-size: 60px;"></i>
+         </div>
+      </div>
+      <div class="heroImageSection" id="advantage">
+         <h1 style="font-size:30px" >OUR <span style="color: #509c4e;"> ADVANTAGES</span></h1>
+         <p style="width: 50%;color:rgb(165 160 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+      </div>
+      <div class="imgSectionDiv">
+         <div class="sectionDiv">
+            <div class="imageDiv">
+               <img src="./images/bulb.png" alt="img"/>
+            </div>
+            <h1 style="font-size: 20px;">INNOVATION</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+         <div class="sectionDiv">
+            <div class="imageDiv">
+               <img src="./images/tumb.png" alt="img"/>  
+            </div>
+            <h1 style="font-size: 20px;">Quality</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+         <div class="sectionDiv">
+            <div class="imageDiv">
+               <img src="./images/clock.png" alt="img"/>  
+            </div>
+            <h1 style="font-size: 20px;">Experience</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+         <div class="sectionDiv">
+            <div class="imageDiv">
+               <img src="./images/happyclient.PNG" alt="img"/>  
+            </div>
+            <h1 style="font-size: 20px;">Happy Client</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+         <div class="sectionDiv">
+            <div class="imageDiv">
+               <img src="./images/support.png" alt="img"/>  
+            </div>
+            <h1 style="font-size: 20px;">Support</h1>
+            <p class="para">Lorem ipsum dolor sit amet consectetur.</p>
+         </div>
+      </div>
+      <div class="aboutDivSection"id="about">
+         <h1 style="font-size:30px;text-align:center">ABOUT<span style="color: #509c4e;"> US</span></h1>
+         <div class="aboutDiv">
+            <div class="aboutText">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatibus ad tempora eligendi fuga perferendis quaerat aliquam deserunt illo. Reprehenderit velit nemo iste atque fugiat. Sint iure a earum iste!</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Minima deleniti quasi quo sed sunt veritatis, error et quia nemo hic dicta dolor quidem officiis laboriosam. Dolorem, sint quis nemo tempore libero ad dolorum. Officiis ullam recusandae, perferendis molestias ratione assumenda debitis! Architecto voluptatibus eveniet animi eligendi.</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere ipsum voluptatum minima facilis temporibus, dicta a dolorum animi molestias exercitationem nesciunt modi. Nisi blanditiis excepturi dolores perferendis unde omnis. Nostrum nesciunt deleniti fugiat voluptas optio tempora voluptate a dolor corrupti sunt unde expedita explicabo, facere voluptatibus alias eveniet laboriosam aspernatur excepturi eligendi dolorum.</p>
+               <button class="button">Read More</button>
+            </div>
+            <div class="aboutImage">
+               <img src="./images/aboutImage.jpg" alt="image"/>
+            </div>
+         </div>
+      </div>
+      <div class="heroImageSection" id="services">
+         <h1 style="font-size:30px" >OUR <span style="color: #509c4e;"> SERVICES</span></h1>
+         <p style="width: 50%;color:rgb(165 160 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+      </div>
+      <div style="display: flex; gap: 20px;">
+         <div class="cartDiv">
+            <div class="circleImageDiv">
+               <img src="./images/red star.png" alt="img" width="30px" height="30px" style="margin-top: -1px;"/>  
+            </div>
+            <h1 style="font-size: 20px;">Web Design</h1>
+            <p style="width: 80%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+            <a style="color: rgb(92, 146, 10); text-decoration: underline;">Read More</a>
+         </div>
+         <div class="cartDiv">
+            <div class="circleImageDiv">
+               <img src="./images/red star.png" alt="img" width="30px" height="30px" style="margin-top: -1px;"/>  
+            </div>
+            <h1 style="white-space: nowwrap;font-size: 20px;">Graphic Design</h1>
+            <p style="width: 80%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+            <a style="color: rgb(92, 146, 10); text-decoration: underline;">Read More</a>
+         </div>
+         <div class="cartDiv">
+            <div class="circleImageDiv">
+               <img src="./images/red star.png" alt="img" width="30px" height="30px" style="margin-top: -1px;"/>  
+            </div>
+            <h1 style="font-size: 20px;">Branding</h1>
+            <p style="width: 80%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+            <a style="color: rgb(92, 146, 10); text-decoration: underline;">Read More</a>
+         </div>
+         <div class="cartDiv">
+            <div class="circleImageDiv">
+               <img src="./images/red star.png" alt="img" width="30px" height="30px" style="margin-top: -1px;"/>  
+            </div>
+            <h1 style="font-size: 20px;">Marketing</h1>
+            <p style="width: 80%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+            <a style="color: rgb(92, 146, 10); text-decoration: underline;">Read More</a>
+         </div>
+      </div>
+      <div class="portfolioMainDiv" id="portfolio">
+         <h1 style="font-size:30px">OUR <span style="color: #509c4e;">PORTFOLIO</span></h1>
+         <p style="width: 50%; color: rgb(165, 160, 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+         <div class="portfolioDiv">
+            <p class="portfolioText">WEB DESIGN</p>
+            <p class="portfolioText">GRAPHIC DESIGN</p>
+            <p class="portfolioText">BRANDING</p>
+            <p class="portfolioText">LOGO</p>
+            <p class="portfolioText">MARKETING</p>
+            <p class="portfolioText">ADVERTISEMENT</p>
+         </div>
+         <img src="./images/porfolioImage.PNG" alt="Portfolio Images" />
+      </div>
+      <div class="heroImageSection"id="process">
+         <h1 style="font-size:30px" >OUR <span style="color: #509c4e;"> PROCESS</span></h1>
+         <p style="width: 50%;color:rgb(165 160 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+      </div>
+      <div class="processContainer">
+         <div class="step">
+            <div class="circle">
+               <div class="number">1</div>
+               <img src="./images/P1.PNG" alt="img" style="width: 32px;height: 80px;"/> 
+            </div>
+            <h1 style="font-size: 16px;">Request Call</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="arrow"></div>
+         </div>
+         <div class="step">
+            <div class="circle">
+               <div class="number">2</div>
+               <img src="./images/P2.PNG" alt="img" style="width: 32px;height: 50px;"/>
+            </div>
+            <h1 style="font-size: 16px;">CONSULTATION</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="arrow"></div>
+         </div>
+         <div class="step">
+            <div class="circle">
+               <div class="number">3</div>
+               <img src="./images/P3.PNG" alt="img" style="width: 47px;height: 54px;"/>
+            </div>
+            <h1 style="font-size: 16px;">PLANNIG</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="arrow"></div>
+         </div>
+         <div class="step">
+            <div class="circle">
+               <div class="number">4</div>
+               <img src="./images/P4.PNG" alt="img" style="width: 45px;height: 60px;"/>
+            </div>
+            <h1 style="font-size: 16px;">WORKING PROCESS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="arrow"></div>
+         </div>
+         <div class="step">
+            <div class="circle">
+               <div class="number">5</div>
+               <img src="./images/P5.PNG" alt="img" style="width: 32px;height: 80px;"/>
+            </div>
+            <h1 style="font-size: 16px;">CORRECTING</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="arrow"></div>
+         </div>
+         <div class="step">
+            <div class="circle">
+               <div class="number">6</div>
+               <img src="./images/P6.PNG" alt="img" style="width: 32px;height: 80px;"/>
+            </div>
+            <h1 style="font-size: 16px;">DELIVER</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+         </div>
+      </div>
+      <div class="peopleAboutUs"id="rating">
+         <div class="heroImageSection">
+            <h1 style="font-size:30px" >PEOPLE <span style="color: #509c4e;"> ABOUT US</span></h1>
+            <p style="width: 50%;color:rgb(165 160 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+         </div>
+         <div style="display: flex; flex-direction: column;">
+            <div class="row2" style="display: flex; position: relative; padding-bottom: 20px; ">
+               <div class="profileDiv">
+                  <img src="./images/profileImage.png" alt="Profile Image"/>
+               </div>
+               <div class="profileTextSection">
+                  <h1 style="font-size: 25px;">John Doe</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius ea velit natus ducimus accusamus officia odio sed quia eos.</p>
+               </div>
+               <div class="vertical-line1"></div>
+               <div class="profileDiv">
+                  <img src="./images/profileImage.png" alt="Profile Image"/>
+               </div>
+               <div class="profileTextSection">
+                  <h1 style="font-size: 25px;">John Doe</h1>
+                  <p>Lorem ipsum dol
+                     or sit amet consectetur adipisicing elit. Consequatur eius ea velit natus ducimus accusamus officia odio sed quia eos.
+                  </p>
+               </div>
+            </div>
+            <div class="row1" style="display: flex; position: relative; padding-top: 20px;">
+               <div class="profileDiv">
+                  <img src="./images/profileImage.png" alt="Profile Image"/>
+               </div>
+               <div class="profileTextSection">
+                  <h1 style="font-size: 25px;">John Doe</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius ea velit natus ducimus accusamus officia odio sed quia eos.</p>
+               </div>
+               <div class="vertical-line2"></div>
+               <div class="profileDiv">
+                  <img src="./images/profileImage.png" alt="Profile Image"/>
+               </div>
+               <div class="profileTextSection">
+                  <h1 style="font-size: 25px;">John Doe</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eius ea velit natus ducimus accusamus officia odio sed quia eos.</p>
+               </div>
+            </div>
+         </div>
+         <div class="dotDiv">
+            <i class="fas fa-ellipsis-h" style="font-size: 60px; color: orange;"></i>
+         </div>
+      </div>
+      <div class="heroImageSection"id="skill">
+         <h1 style="font-size:30px" >OUR <span style="color: #509c4e;">SKILLS</span></h1>
+         <p style="width: 50%;color:rgb(165 160 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+      </div>
+      <div class="row d-flex justify-content-center mt-100" style="gap: 10px">
+         <div class="col-md-6" style="display: contents;">
+            <div class="progress purple" style="background-color: white;">
+               <span class="progress-left">
+               <span class="progress-bar"></span>
+               </span>
+               <span class="progress-right">
+               <span class="progress-bar"></span>
+               </span>
+               <div class="progress-value" style="color:orange; border: 3px solid orange;">45%</div>
+            </div>
+            <div class="progress blue"style="background-color: white;">
+               <span class="progress-left">
+               <span class="progress-bar"></span>
+               </span>
+               <span class="progress-right">
+               <span class="progress-bar"></span>
+               </span>
+               <div class="progress-value" style="color:#ff0000; border: 3px solid #ff0000;">60%</div>
+            </div>
+            <div class="progress green" style="background-color: white;">
+               <span class="progress-left">
+               <span class="progress-bar"></span>
+               </span>
+               <span class="progress-right">
+               <span class="progress-bar"></span>
+               </span>
+               <div class="progress-value" style="color:#509c4e; border: 3px solid #509c4e;">75%</div>
+            </div>
+            <div class="progress red" style="background-color: white;">
+               <span class="progress-left">
+               <span class="progress-bar"></span>
+               </span>
+               <span class="progress-right">
+               <span class="progress-bar"></span>
+               </span>
+               <div class="progress-value" style="color:black; border: 3px solid black;">80%</div>
+            </div>
+         </div>
+      </div>
+      <div style="background-color: #509c4e;color: white; padding: 20px; border-radius: 10px;" class="heroImageSection">
+         <h1 class="startingProject" >START YOUR NEW PROJECT</span></h1>
+         <div class="projectDiv">
+            <input type="text"/>
+            <input type="email"/>
+            <input type="number"/>
+            <butt class="button1">SEND REQUEST</butt>
+         </div>
+         <p style="width: 50%;color:rgb(241, 233, 236);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+      </div>
+      <div class="heroImageSection"id="contact">
+         <h1 style="font-size:30px" >OUR <span style="color: #509c4e;">CONTACTS</span></h1>
+         <p style="width: 50%;color:rgb(165 160 162);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque consequuntur cupiditate.</p>
+         <p style="width: 70%;">
+            <i style="color: #509c4e;" class="fas fa-map-marker-alt"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, asperiores nisi ut minima accusamus itaque.
+         </p>
+         <div class="contactDivSection">
+            <p><i class="fas fa-phone" style="color: #509c4e;"></i>
+               (304) 386-6719
+            </p>
+            <p><i class="fas fa-phone"style="color: #509c4e;"></i>
+               (304) 386-6719
+            </p>
+            <p><i class="fas fa-envelope"style="color: #509c4e;"></i>
+               info@website.com
+            </p>
+         </div>
+         <img src="./images/mapImage.PNG"alt="image"width="100%"/>
+      </div>
+      <footer
+         class="text-center text-lg-start text-white"
+         style="background-color: #509c4e;border-radius: 10px;">
+         <section class="">
+            <div class="container text-center text-md-start mt-5">
+               <div class="row mt-3">
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4 companyNameDiv" >
+                     <img src="./images/footerLogo.PNG" alt="images" width="80px" height="50px"/>
+                     <p style="color:white">
+                        Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     </p>
+                     <p style="color:white">@Panadcloud 2024</p>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <h6 class="text-uppercase fw-bold">SERVICES</h6>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                  </div>
+                  <div class="col-md-1 d-none d-md-block">
+                     <div class="vertical-line"></div>
+                  </div>
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <h6 class="text-uppercase fw-bold">Useful links</h6>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                     <p><a href="#!" class="text-white">Lorem</a></p>
+                  </div>
+                  <div class="col-md-1 d-none d-md-block">
+                     <div class="vertical-line"></div>
+                  </div>
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                     <h6 class="text-uppercase fw-bold">Contact</h6>
+                     <p style="color: white;"><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                     <p style="color: white;"><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                     <p style="color: white;"><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                     <h6 class="text-uppercase fw-bold">FOLLOW US</h6>
+                     <div class="iconDiv" >
+                        <div class="socialIconDiv"><i style="font-size: 15px;" class="fab fa-facebook-f"></i></div>
+                        <div class="socialIconDiv"><i style="font-size: 13px;" class="fab fa-twitter"></i></div>
+                        <div class="socialIconDiv"><i style="font-size: 13px;" class="fab fa-google-plus-g"></i></div>
+                        <div class="socialIconDiv"><i style="font-size: 13px;" class="fab fa-linkedin-in"></i></div>
+                        <div class="socialIconDiv"><i style="font-size: 13px;" class="fab fa-youtube"></i></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </footer>
+   </body>
+</html>
